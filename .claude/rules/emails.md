@@ -15,6 +15,6 @@ These rules apply to every email file in every campaign, including the group ver
 4. **End with the sign-off, then the footer.** First the sign-off from `brand/voice.md`, exactly as written there. Then this two-line footer as plain text, not inside a code block or quote:
 
 You're getting this because you submitted your form for admission.
-IMCG Humak, {{company_address}} · Unsubscribe: {{unsubscribe_url}}
+IMCG, Humak, {{company_address}} · Unsubscribe: {{unsubscribe_url}}
 
 Nothing comes after the footer. No notes, no alternative subject lines, no design tips. The file holds only the email itself.
