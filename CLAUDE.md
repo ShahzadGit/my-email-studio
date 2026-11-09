@@ -8,6 +8,10 @@ This studio plans and writes email campaigns for a small organisation: **Islamab
 
 We build the studio by following the course in `docs/email-studio-lab-guide.md`. Its prompts use a sample tea shop, Kettlebird Tea. Here, always swap in IMCG Humak and its audiences instead. Each step has a build prompt and a check prompt. Check prompts run in a fresh session and must not change any files.
 
+## Brand voice
+
+@brand/voice.md
+
 ## Folders
 
 - `brand/`: how the college sounds in writing: voice, words to use and avoid, claims we must never make.
