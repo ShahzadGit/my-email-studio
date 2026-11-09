@@ -1,0 +1,7 @@
+# Claude Code: personal settings, never shared
+.claude/settings.local.json
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
