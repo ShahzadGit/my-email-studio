@@ -24,6 +24,7 @@ We build the studio by following the course in `docs/email-studio-lab-guide.md`.
 
 - **Write in plain English.** Short sentences, everyday words, no jargon.
 - **Never send email to real people.** That includes real parents, students, staff or officials of the college. Practice contacts use made-up names and `@example.com` addresses only. Don't put real people's names or details, taken from the college website or anywhere else, into leads or test emails.
+  - **Sending through Resend** (the `resend` MCP server in `.mcp.json`) is allowed only to Resend's test addresses, which end in `@resend.dev`, and to my own email address, the `MY_EMAIL` value in `.claude/settings.local.json`. Never send to anyone else, including the `@example.com` practice contacts. A send guard (a hook) will enforce this from the next step. If it blocks a send, don't try to get around it.
 - **Ask me before deleting anything.**
 
 ## Plugin
