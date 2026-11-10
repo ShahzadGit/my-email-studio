@@ -23,5 +23,12 @@
       }
     ]
   },
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Bash(cat .env)",
+      "PowerShell(Get-Content .env)"
+    ]
+  },
   "includeCoAuthoredBy": false
 }
